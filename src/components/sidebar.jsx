@@ -9,7 +9,7 @@ export default function Sidebar(){
         <div className="hidden lg:block w-[25%] p-2 flex-col h-full gap-2 text-white">
 
             <div className="bg-[#121212] h-[15%] rounded flex flex-col justify-around">
-                <div onClick={() => navigate("/")}  className="flex items-center gap-3 pl-8 cursor-pointer">
+                <div onClick={() => navigate("/spotify/")}  className="flex items-center gap-3 pl-8 cursor-pointer">
                     <img className="w-6" src={assets.home_icon} alt="" />
                     <p className="font-bold">Home</p>
                 </div>
