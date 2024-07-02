@@ -24,8 +24,8 @@ export default function Display(){
     return(
         <div ref={displayRef} className="w-[90%] m-2 px-6 pt-4 rounded bg-[#121212] text-while overflow-auto lg:w-[75%] lg:ml-0">
             <Routes>
-                <Route path="/"  element={<Home/>}/>
-                <Route path="/album/:id"  element={<Album/>}/>
+                <Route path="/spotify/"  element={<Home/>}/>
+                <Route path="/spotify/album/:id"  element={<Album/>}/>
             </Routes>
         </div>
     )
